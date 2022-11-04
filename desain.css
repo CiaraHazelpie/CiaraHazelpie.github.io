@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(167, 167, 221);
+    background-repeat: no-repeat;
+	background-size: cover;
+    margin: 20px 0 20px 0;
+    font-family: arial;
+    
+}
+h1{
+    padding-top: 5;
+}
+.header h1{
+    margin: auto;
+    border-radius: 3px;
+    width: 600px;
+    height: 45px;
+    text-align: center;
+    display: block;
+    font-family: arial;
+    background-color: rgb(108, 113, 161);
+}
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(241, 255, 254, 0.466);
+    margin: auto;
+}
+.isi{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 90%;
+    
+}
+.isi img{
+    transform: rotate(270deg);
+    
+    position: relative;
+    top: 3rem;
+    left: -2rem;
+}
+.container h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-top: 15px;
+}
+.input{
+    position: relative;
+    bottom: 10px;
+    right: 4rem;
+    display: inline-block;
+    width: 320px;
+    height: 600px;
+    font-size: 13px;
+}
+input{
+    width: 16rem;
+    height: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-color: black;
+    background: none;
+}
+input:hover{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}
+button{
+    width: 80px;
+    height: 30px;
+    border: 1 solid rgb(255, 255, 255);
+    background-color: rgb(184, 179, 245);
+}
+#tanggal_lahir{
+    width: 140px;
+    height: 22px;
+    position: relative;
+    right: -5px;
+    border: 1px solid rgb(112, 112, 112);
+    background-color: white;
+}
+#jK{
+    width: 140px;
+    
+}
+#status{
+    width: 140px;
+    position: relative;
+    right: 7px;
+}
+.app{
+    position: relative;
+    bottom: 140px;
+    left: 60px;
+}
+.apk img{
+    margin-right: 15px;
+}
+hr{
+    width: 250px;
+    position: relative;
+    bottom: 140px;
+    left: -140px;
+    border: 1 solid rgba(145, 145, 145, 0.356);
+}
